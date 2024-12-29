@@ -1,3 +1,16 @@
+// access array by index
+#include <stdio.h>
+
+int main() {
+    int arr[] = {12, 34, 67, 98};
+    
+    printf("%d\n", arr[0]);
+    
+
+    return 0;
+}
+
+
 // loop throw the array
 #include <stdio.h>
 
