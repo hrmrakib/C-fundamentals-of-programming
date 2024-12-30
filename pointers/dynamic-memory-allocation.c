@@ -9,7 +9,7 @@
 int main() {
     int *ptr;
     
-    ptr = (int *)malloc(sizeof(int)); //
+    ptr = (int *)malloc(sizeof(int)); // Allocates memory for an integer
     
     if(ptr == NULL) {
         printf("Memory allocate failed!\n");
