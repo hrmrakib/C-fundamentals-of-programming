@@ -20,9 +20,9 @@ int main() {
     
     printf("%d\n", *ptr); // print the value
     printf("%d\n", ptr); // print the memory address
-    
+
     free(ptr);  // Freeing allocated memory
-    
+     
     printf("Now memory is: %d\n", ptr); // Again print the memory address
     
     return 0;
