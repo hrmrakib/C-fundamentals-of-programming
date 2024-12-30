@@ -15,6 +15,7 @@ int main() {
         printf("Memory allocate failed!\n");
         return 1;
     }
+    
     *ptr = 55;
     
     printf("%d\n", *ptr); // print the value
